@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
-  m_Name: Shapes Demo - WitConfiguration
+  m_Name: WitAI
   m_EditorClassIdentifier: 
   _clientAccessToken: B4J42XIDU67JHHCE7MDSH2NUCWAWTRDW
   _appInfo:
@@ -345,7 +345,7 @@ MonoBehaviour:
       - formal
       - fast
       - projected
-  _configurationId: 4e21a24e472ab684e84db753427d5687
+  _configurationId: 59e92526-692b-4046-8b7b-3646d6cc2403
   timeoutMS: 10000
   endpointConfiguration:
     uriScheme: 
@@ -355,7 +355,7 @@ MonoBehaviour:
     speech: 
     message: 
     dictation: 
-  isDemoOnly: 1
+  isDemoOnly: 0
   useConduit: 1
-  _manifestLocalPath: ConduitManifest-254e5f5c-7da8-4000-b840-04cf82f349c6.json
+  _manifestLocalPath: ConduitManifest-a50038d3-4a2a-4602-8656-9d8a3600d659.json
   excludedAssemblies: []

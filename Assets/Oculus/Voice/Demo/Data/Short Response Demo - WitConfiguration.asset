@@ -19,9 +19,9 @@ MonoBehaviour:
     lang: en
     isPrivate: 1
     createdAt: 2023-02-08T05:03:44-0800
-    trainingStatus: 3
-    lastTrainDuration: 0
-    lastTrainedAt: 1969-12-31T16:00:00-0800
+    trainingStatus: 1
+    lastTrainDuration: 49
+    lastTrainedAt: 2023-02-08T05:04:54-0800
     nextTrainAt: 2023-02-08T05:04:05-0800
     intents:
     - id: 1095939791805604

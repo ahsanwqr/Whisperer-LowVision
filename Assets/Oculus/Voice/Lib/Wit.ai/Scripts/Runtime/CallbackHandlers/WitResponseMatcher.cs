@@ -39,6 +39,7 @@ namespace Meta.WitAi.CallbackHandlers
         // Handle validation
         protected override string OnValidateResponse(WitResponseNode response, bool isEarlyResponse)
         {
+            Debug.LogWarning("No value matches");
             // Return base
             string result = base.OnValidateResponse(response, isEarlyResponse);
             if (!string.IsNullOrEmpty(result))
@@ -50,6 +51,7 @@ namespace Meta.WitAi.CallbackHandlers
             {
                 return "No value matches";
             }
+            
             // Success
             return string.Empty;
         }

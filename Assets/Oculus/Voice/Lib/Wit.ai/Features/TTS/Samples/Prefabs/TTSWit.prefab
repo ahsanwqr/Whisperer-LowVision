@@ -80,7 +80,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
   RequestSettings:
-    configuration: {fileID: 0}
+    configuration: {fileID: 11400000, guid: b3d5ad89f091a0a4785d8fbbfdd39448, type: 2}
   _presetVoiceSettings:
   - settingsID: CHARLIE
     voice: Charlie
