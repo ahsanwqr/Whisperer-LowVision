@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Short Response Demo - WitConfiguration
+  m_EditorClassIdentifier: 
+  _clientAccessToken: 34BODSEYKXMM2CD6W6HQU4JM4INCY7MY
+  _appInfo:
+    name: whisper
+    id: d35c968c-799e-468e-a192-a502a385c732
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-02-08T05:03:44-0800
+    trainingStatus: 1
+    lastTrainDuration: 49
+    lastTrainedAt: 2023-02-08T05:04:54-0800
+    nextTrainAt: 2023-02-08T05:04:05-0800
+    intents:
+    - id: 1095939791805604
+      name: change_color
+      entities:
+      - name: color:color
+        id: 928203464848921
+      - name: shape:shape
+        id: 3281138562135318
+    entities:
+    - name: color
+      id: 514949667212832
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: color
+        id: 928203464848921
+      keywords:
+      - keyword: black
+        synonyms:
+        - black
+      - keyword: blue
+        synonyms:
+        - blue
+      - keyword: brown
+        synonyms:
+        - brown
+      - keyword: gold
+        synonyms:
+        - gold
+      - keyword: green
+        synonyms:
+        - green
+      - keyword: magenta
+        synonyms:
+        - magenta
+      - keyword: maroon
+        synonyms:
+        - maroon
+        - red
+      - keyword: orange
+        synonyms:
+        - orange
+      - keyword: pink
+        synonyms:
+        - pink
+      - keyword: purple
+        synonyms:
+        - purple
+      - keyword: red
+        synonyms:
+        - red
+      - keyword: violet
+        synonyms:
+        - violet
+      - keyword: white
+        synonyms:
+        - white
+      - keyword: yellow
+        synonyms:
+        - yellow
+    - name: shape
+      id: 3366438193571509
+      lookups:
+      - keywords
+      roles:
+      - name: shape
+        id: 3281138562135318
+      keywords:
+      - keyword: capsule
+        synonyms:
+        - capsule
+      - keyword: cube
+        synonyms:
+        - cube
+        - square
+      - keyword: cylinder
+        synonyms:
+        - cylinder
+        - tube
+      - keyword: sphere
+        synonyms:
+        - ball
+        - sphere
+    traits: []
+    voices:
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: 4e21a24e472ab684e84db753427d5687
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 1
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-182e53ee-81b7-4973-b13d-1729dd795404.json
+  excludedAssemblies: []
